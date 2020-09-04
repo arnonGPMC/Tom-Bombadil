@@ -10,7 +10,10 @@ client.on('ready', () => {
 //____________________________________________________Bot Playing___________________________________________________________\\
 client.on('message', message => {
   if (message.content === '!invite') {
-    message.channel.send(`My Invite Link Is: `).catch();
+    message.channel.send(`My Invite Link Is: http://invitebot.rf.gd`).catch();
+  }
+  if (message.content === '!vote') {
+    message.channel.send(`There Is No Vote Right Now... :(`)
   }
 })
 //_____________________________commands________________________________\\
